@@ -7,7 +7,7 @@ namespace App\Services;
 use Framework\Validator;
 use Framework\Rules\{RequiredRule};
 
-class ValidatorService 
+class ValidatorService
 {
     private Validator $validator;
 
@@ -27,8 +27,8 @@ class ValidatorService
             'country' => ['required'],
             'socialMediaURL' => ['required'],
             'password'=> ['required'],
-            'confirmPassword'=> ['required'],
-            'tos'=> ['required']
+            'confirmPassword' => ['required'],
+            'tos' => ['required']
         ]);
 
     }
